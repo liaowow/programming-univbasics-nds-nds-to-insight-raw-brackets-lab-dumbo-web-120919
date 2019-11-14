@@ -12,7 +12,6 @@ def directors_totals(nds)
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
   result = {}
-  total = 0
   
   directors_index = 0
   while directors_index < nds.count do
@@ -31,5 +30,6 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   result
-  total
 end
+
+# create a method that calculates director's total
