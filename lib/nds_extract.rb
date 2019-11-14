@@ -12,17 +12,9 @@ def directors_totals(nds)
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
   result = {}
-  
   directors_index = 0
   while directors_index < nds.count do
     current_director = nds[directors_index][:name]
-    
-    movies_index = 0
-    while movies_index <  nds[directors_index][:movies].count do
-      result[current_director] = nds[directors_index][:movies][:worldwide_gross]
-      total += nds[directors_index][:movies][:worldwide_gross]
-      movies_index += 1
-    end
     
     directors_index += 1
   end
@@ -36,6 +28,8 @@ end
 
 def director_gross(nds)
   movies_index = 0
+  
+  while movies_index < nds[]
   
 end
 
