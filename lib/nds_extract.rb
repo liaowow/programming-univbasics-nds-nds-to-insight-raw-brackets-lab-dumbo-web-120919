@@ -29,7 +29,7 @@ end
 def director_gross(director_data)
   movies_index = 0
   
-  while movies_index < nds[]
+  while movies_index < director_data
   
 end
 
