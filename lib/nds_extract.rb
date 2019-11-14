@@ -26,7 +26,7 @@ end
 
 # helper func that adds up director's worldwide_gross for all the movies made by the director
 
-def director_gross(nds)
+def director_gross(director_data)
   movies_index = 0
   
   while movies_index < nds[]
