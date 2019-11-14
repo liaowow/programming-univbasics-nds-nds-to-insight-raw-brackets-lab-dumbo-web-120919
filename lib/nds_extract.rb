@@ -24,7 +24,7 @@ def directors_totals(nds)
   result
 end
 
-# helper func that calculates director's worldwide_gross for all the movies made by the director
+# helper func that adds up director's worldwide_gross for all the movies made by the director
 
 def director_gross(nds)
   movies_index = 0
